@@ -4,5 +4,5 @@ variable "pstgrsql_admin_login" {
 
 variable "pstgrsql_admin_password" {
   description = "Password for postgresql server admin account."
-  sensitive = true
+  sensitive   = true
 }
